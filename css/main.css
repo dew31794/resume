@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* Apple 使用字體 */
+    /* font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif; */
+    /* 微軟使用字體 */
+    /* font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; */
+	font-family: 'Noto Sans TC','Lucida Grande',"微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#wrapper,
+header,
+.header_top,
+.navbar,
+.banner,
+.header_other,
+main,
+.main_top,
+.main_content,
+.main_botton,
+.main_other,
+footer,
+.footer_top,
+.footer_content,
+.footer_other,
+.container,
+.side,
+.content{
+    position: relative;
+}
+
+#wrapper,
+header,
+main,
+footer,
+.container {
+    background: no-repeat center top;
+}
+
+a:focus,
+input:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.nav > li > a:hover,
+.nav > li > a:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.list-inline a,
+.list-unstyled a {
+    display: inline-block;
+}
+
+#wrapper{
+    overflow: hidden;
+}
+
+
+/* 麵包屑 */
+.breadcrumb {
+    background: none;
+}
+
+header{
+	z-index: 12;
+}
+
+header .navbar {
+    z-index: 30;
+}
+
+header .banner{
+    z-index: 29;
+}
+
+header .header_other{
+    z-index: 30;
+}
+
+main{
+	z-index: 10;
+}
+
+main .main_top{
+
+}
+
+main .main_content{
+
+}
+
+main .main_botton{
+
+}
+
+main .main_other{
+
+}
+
+footer{
+	z-index: 11
+}
+
+footer .footer_top{
+
+}
+
+footer .footer_content{
+
+}
+
+footer .footer_bottom{
+
+}
+
+footer .footer_other{
+    
+}
